@@ -9,7 +9,7 @@ an Image Processing API Project for UDACITY. built using TypeScript, NodeJS & Ex
 
 ## Usage
 1. ```npm run start``` - to start the server
-2. to open a specific image use /api/api?image=<image name>
+2. to open a specific image use /api?image=<image name>
 3. -available images [fjord,
   encenadaport,
   icelandwaterfall,
@@ -19,7 +19,8 @@ an Image Processing API Project for UDACITY. built using TypeScript, NodeJS & Ex
 
 ## Examples
 
-- http://localhost:8080/api/api?image=fjord
+- http://localhost:8080/
+- http://localhost:8080/api?image=fjord
 - http://localhost:8080/api/imageprocess?image=fjord&width=150&height=200
 
 ## Scripts
